@@ -1,0 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+div {
+  transition: background ease 0.5s;
+}

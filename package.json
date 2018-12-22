@@ -1,0 +1,21 @@
+{
+  "name": "eevee-kreevee",
+  "version": "1.0.0",
+  "description": "",
+  "now": {
+    "version": 1
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Evan Krambuhl <evan.krambuhl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
