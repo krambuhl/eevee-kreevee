@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Div100vh from 'react-div-100vh'
 import '../assets/styles.css'
 
 const styles = {
@@ -7,7 +8,7 @@ const styles = {
     zIndex: 1,
     display: 'flex',
     width: '100vw',
-    height: '100vh',
+    height: '100%',
     alignItems: 'center',
     justifyContent: 'center'
   },
@@ -20,7 +21,7 @@ const styles = {
     left: 0,
     zIndex: 0,
     width: '100vw',
-    height: '100vh'
+    height: '100%'
   }
 }
 
@@ -146,7 +147,7 @@ export default class Page extends React.Component {
   render () {
     const { currentColor, currentBackgroundColor } = this.state
     return (
-      <div>
+      <Div100vh>
         <Head>
           <title>Eevee Kreevee</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -166,7 +167,7 @@ export default class Page extends React.Component {
             ...styles.canvas
           }}
         />
-      </div>
+      </Div100vh>
     )
   }
 }
